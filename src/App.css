@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+/* User Style */
+.user-info {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
