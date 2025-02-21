@@ -19,7 +19,7 @@ function App() {
         <Route path="/articles" element={<ArticleList />} />
         <Route path="/articles/:article_id" element={<ArticleDetail />} />
         <Route path="/topics" element={<Topics />} />
-        <Route path="/topics/:topic" element={<TopicArticles />} />
+        <Route path="/topics/:slug" element={<TopicArticles />} />
       </Routes>
     </BrowserRouter>
   );
