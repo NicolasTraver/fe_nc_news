@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
+import Topics from "../Pages/Topics";
 import UserInfo from "./UserInfo";
 
 function ArticleCard({ article }) {
   return (
     <div className="article-card">
       <UserInfo />
+      <Topics />
       <Link to={`/articles/${article.article_id}`} className="article-link">
         <img
           src={article.article_img_url}
